@@ -1,0 +1,149 @@
+body 
+{
+    background: #fff;
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+main
+{
+    overflow: auto;
+}
+#cat-content
+{
+    min-height: 100%;
+    position: relative;
+}
+#cat-clearfix
+{
+    height: 80px;
+    width: 100%;
+}
+#cat-footer
+{
+    position: relative;
+    z-index: 0;
+    margin-top: -80px;
+}
+body.loginPage
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d1367+0,661a6b+49,3d1367+100 */
+    background: #3d1367; /* Old browsers */
+    background: -moz-linear-gradient(left, #3d1367 0%, #661a6b 49%, #3d1367 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3d1367 0%,#661a6b 49%,#3d1367 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3d1367 0%,#661a6b 49%,#3d1367 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1367', endColorstr='#3d1367',GradientType=1 ); /* IE6-9 */
+}
+
+main
+{
+    width: 100%;
+}
+
+.cat-container
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cat-logo img
+{
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+
+.btn
+{
+    line-height: 32px;
+    font-size: 18px;
+    background: #944894;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.btn:hover
+{
+    background: #763976;
+}
+
+/* ========== loginBOX ========== */
+
+#cat-loginBoxWrap
+{
+    margin-top: 15%;
+    width: 100%;
+}
+.cat-logo img
+{
+    width: 90%;
+    margin: 3% 5%;
+}
+
+#cat-loginBox
+{
+    margin: auto;
+    background: #fff;
+    width: 280px;
+    border: solid 2px #fff;
+    box-sizing: border-box;
+}
+#cat-loginBox .cat-logo
+{
+    margin-bottom: 20px;
+}
+#loginForm
+{
+    width: 100%;
+}
+#loginForm .loginControls
+{
+    width: 80%;
+    margin: 3% 10%;
+    box-sizing: border-box;
+    border: solid 1px #7A1B7A;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#loginForm .loginControls > *
+{
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+}
+#loginForm .loginControls i
+{
+    width: 20%;
+    color: #944894;
+    text-align: center;
+}
+#loginForm .loginControls input
+{
+    width: 80%;
+}
+
+#loginForm .btn
+{
+    width: 90%;
+    margin: 5% 2% 2% 5%;
+    padding: 1%;
+}
+
+/* ========== footer ========== */
+
+
+#cat-copyrightWrap
+{
+    text-align: center;
+    width: 100%;
+}
