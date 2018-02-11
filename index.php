@@ -3,12 +3,7 @@
     
 <head>
     <title>SlimCat v1.1 </title>
-     
-<?php
-    include_once("controllers.php");
-    $controller = new Controllers();
-    $controller->setBlock('head');
-?>
+
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->   
@@ -20,9 +15,7 @@
         <header>
         </header>
         <main>
-            <?php
-                $controller->setBlock('main');
-            ?>
+
         </main>
         <div id="cat-clearfix"></div>
     </div>
